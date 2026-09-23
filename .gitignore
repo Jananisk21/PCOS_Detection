@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large trained models and caches (keep .gitkeep)
+saved_models/*.keras
+saved_models/*.h5
+saved_models/*.npz
+!saved_models/.gitkeep
+
+# Outputs
+outputs/*.png
+outputs/*.txt
+outputs/*.csv
+!outputs/.gitkeep
+
+# Dataset images (keep directory structure)
+data/raw/PCOS/*.png
+data/raw/PCOS/*.jpg
+data/raw/PCOS/*.jpeg
+data/raw/notPCOS/*.png
+data/raw/notPCOS/*.jpg
+data/raw/notPCOS/*.jpeg
+!data/raw/PCOS/.gitkeep
+!data/raw/notPCOS/.gitkeep
+!data/processed/.gitkeep
