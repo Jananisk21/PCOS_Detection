@@ -1,0 +1,22 @@
+{
+  "optimizer": "ga",
+  "best_individual": {
+    "dense_units": 256,
+    "dropout_rate": 0.3755513759008209,
+    "learning_rate": 0.003765249501831186,
+    "optimizer_name": "rmsprop"
+  },
+  "best_fitness": 1.0,
+  "history": [
+    [
+      0,
+      1.0
+    ],
+    [
+      1,
+      1.0
+    ]
+  ],
+  "backbone_variant": "lite",
+  "img_size": 96
+}

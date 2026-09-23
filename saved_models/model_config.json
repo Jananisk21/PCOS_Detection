@@ -1,0 +1,4 @@
+{
+  "img_size": 96,
+  "backbone_variant": "lite"
+}
